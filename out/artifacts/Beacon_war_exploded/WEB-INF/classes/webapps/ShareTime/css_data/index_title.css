@@ -1,0 +1,88 @@
+/***********首页导航栏**************/
+.title {
+    width: 100%;
+    background-color: #050326;
+    height: auto;
+}
+
+.logo {
+    width: 120px;
+    height: 80px;
+    margin: 10px 0 0 60px;
+    overflow: hidden;
+    align-items: left;
+}
+
+.title ul li {
+    display: inline;
+}
+
+.title ul {
+    float: right;
+}
+
+.title ul.guide {
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.title ul.guide li {
+    padding: 25px 20px;
+}
+
+.title ul.guide li a {
+    color: #c3c3a7;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.title ul.guide li:hover a{
+    border-bottom: #1d9ef5 solid 2px;
+    color: #f8eef6;
+}
+a.title_hover{
+    border-bottom: #1d9ef5 solid 2px;
+    color: #f8eef6;
+}
+.drop_li{
+    display: inline;
+}
+
+li.drop_li:hover ul.drop_ul{
+    display: block;
+}
+ul.drop_ul{
+    position: absolute;
+}
+ul.drop_ul li{
+    display: block;
+}
+
+/*************登录***************/
+.title ul.login{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.title ul.login li {
+    border: #c3c3a7 solid 1px;
+    border-radius: 17px;
+    padding: 1px 8px 5px 8px ;
+    margin-left: 10px;
+}
+
+.title ul.login li:hover {
+    border: #f8eef6 solid 1px;
+
+}
+
+.title ul.login li a {
+    text-decoration: none;
+    padding: 0;
+    color: #c3c3a7;
+    font-size: 13px;
+    font-family: 宋体,serif;
+}
+
+.title ul.login li a:hover {
+    color: #f8eef6;
+}

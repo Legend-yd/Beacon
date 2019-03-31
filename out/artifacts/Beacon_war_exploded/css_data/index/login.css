@@ -1,0 +1,100 @@
+body {
+    background-color: #eeeeee;
+}
+
+#main {
+    width: 100%;
+    text-align: center;
+}
+
+#mian_div {
+    width: 960px;
+    background-color: white;
+    margin: 90px auto;
+    border-radius: 10px;
+}
+
+/*登录注册标语*/
+#choose {
+    width: 100%;
+    display: flex;
+
+    border-bottom: #c0cdc3 solid 1px;
+
+}
+
+#choose a {
+    width: 50%;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.4em;
+}
+
+/*mode*/
+#mode {
+    display: flex;
+}
+
+/*登录模块*/
+.login_div {
+    width: 50%;
+    padding: 40px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.input_text {
+    display:block;
+    padding: 7px;
+    margin: 28px 16%;
+    width: 65%;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #faf77c;
+
+}
+
+.identifyCode {
+
+}
+
+.input_btn {
+    display: block;
+    width: 68%;
+    padding: 7px;
+    margin: 25px  0 60px 16%;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #61c6d1;
+}
+
+.input_btn:hover {
+    background-color: #72e8f5;
+}
+
+.input_checkbox {
+    margin-left: 15px;
+}
+
+.login_div a {
+    color: #1d7b9e;
+    font-family: 宋体, serif;
+    font-size: 17px;
+}
+
+a.forget_pwd {
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+a.forget_pwd:hover {
+    color: #101f46;
+}
+
+
+/*注册模块*/
+#create_div {
+    width: 50%;
+    padding: 40px 20px 10px 20px;
+    border-radius: 15px;
+}

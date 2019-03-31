@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="../../css_data/index/login.css">
+    <script src="../../js/util/jquery-3.3.1.min.js"></script>
+    <script src="../../js/util/myStyle.js"></script>
+    <script src="../../js/util/myCookie.js"></script>
+    <script src="../../js/index/login.js"></script>
+
+</head>
+<body>
+<div id="header"></div>
+<div id="main">
+    <div id="mian_div">
+        <div id="choose">
+            <a id="login_btn"> 登录</a>
+            <a id="create_btn">注册</a>
+        </div>
+        <div id="mode">
+            <div class="login_div">
+                <form name="login_form" action="#" method="get">
+                    <input class="input_text" type="text" name="login_name" id="login_name" placeholder="用户名">
+                    <input class="input_text" type="password" name="login_pwd" id="login_pwd" placeholder="输入密码">
+                    <input class="input_checkbox" type="checkbox"><a>记住密码</a>
+                    <a class="forget_pwd" href="#">忘记密码?</a>
+                    <input class="input_btn" type="submit" value="登录" onclick="panduan()">
+                </form>
+            </div>
+            <div id="create_div">
+                <form name="login_form" action="#" method="get">
+                    <input class="input_text" type="text" name="login_name" id="create_name" placeholder="用户名">
+                    <input class="input_text" type="password" name="login_pwd" id="create_pwd" placeholder="输入密码">
+                    <input class="input_text" type="password" name="login_pwd" id="create_pwd_retry" placeholder="确认密码">
+                    <a href="#">注意事项</a>
+                    <input class="input_checkbox" type="checkbox"><a>已阅读</a>
+                    <input class="input_btn" type="submit" value="注册" onclick="panduan()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="foot"></div>
+</body>
+</html>

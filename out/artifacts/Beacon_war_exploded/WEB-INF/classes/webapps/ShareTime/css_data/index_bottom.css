@@ -1,0 +1,38 @@
+/********底部css样式**********/
+.bottom{
+    background-color: #040a34;
+    width:100%;
+    height: auto;
+    position:absolute;
+    bottom: 0;
+    padding: 0;
+}
+.bottom_left{
+    float: left;
+}
+
+.bottom_left ul{
+    display: block;
+}
+.bottom_left ul li{
+    display: block;
+    color: #c0cdc3;
+    font-size: 13px;
+}
+
+.bottom_right{
+    float: right;
+}
+
+.bottom_div{
+    background-color: #050521;
+
+}
+
+.bottom_div p{
+    color: #95aaaa;
+    font-family: 新宋体 ,serif;
+    font-size: 13px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}

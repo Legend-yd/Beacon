@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.index_title {
+    top: 0;
+    width: 100%;
+    display: flex;
+    position: fixed; /*固定作用*/
+    /*ie6下样式，加下划线表示只针对ie6 的hack */
+    z-index: 9999; /* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+    background-image: url(../../images/indexlbg.png);
+}
+
+/*logo*/
+.title_logo {
+    width: 15%;
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+.title_guide {
+    width: 60%;
+}
+
+/*导航栏*/
+ul.guide_ul {
+    width: 100%;
+    display: block;
+    margin: 0.2em;
+}
+
+ul.guide_ul li {
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.2em;
+}
+
+ul.guide_ul li:active {
+    border-bottom: #1d9ef5 solid 1px;
+}
+
+ul.guide_ul li a:active {
+    color: #f8eef6;
+}
+
+ul.guide_ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-family: 宋体, serif;
+    font-weight: bold;
+}
+
+/*题库下拉框*/
+li.question {
+    display: block;
+}
+
+li.question:hover ul.question {
+    display: block;
+}
+
+ul.question {
+    display: none;
+    position: absolute;
+    background-color: #362928;
+    padding: 0.1em;
+    border-radius: 10px;
+}
+
+ul.question li {
+    display: block;
+    position: relative;
+    padding: 0.1em;
+    font-size: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul.question li:hover {
+    color: #f8eef6;
+    background-color: #1bc4f3;
+}
+
+/*登录*/
+.title_login {
+    width: 15%;
+    display: block;
+    justify-content: space-between;
+    padding: 1.4% 2.5% 1.5% 2.5%;
+}
+
+.title_login a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-family: 宋体, serif;
+    font-weight: bold;
+    border: #f8f8f8 solid 1px;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+
+.title_login a:active {
+    background-color: #0a0f57
+}
+
+/*个人中心*/
+.title_personal {
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.7em;
+    color: #c0cdc3;
+    padding: 0;
+    margin-left: 2.5%;
+    display: none;
+}
+
+.title_personal:hover ul {
+    display: block;
+}
+
+/*头像*/
+img.personal {
+    padding: 0;
+    width: 3em;
+    height: 3em;
+    border-radius: 2em;
+}
+
+/*下拉框*/
+.title_personal ul {
+    width: 15%;
+    display: none;
+    position: absolute;
+    background-color: #040a34;
+    padding: 0.6em;
+    border-radius: 15px;
+}
+
+.title_personal ul li {
+    display: block;
+    padding: 0.1em 0.6em 0.1em 0.6em;
+}
+
+.title_personal ul li:hover {
+    background-color: #9ba0a8;
+    border-radius: 0.3em;
+}
+
+.title_personal ul li a {
+    text-decoration: none;
+    color: #c0cdc3;
+}
