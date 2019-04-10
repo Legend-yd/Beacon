@@ -3,8 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>讨论区</title>
+    <link href="../../css_data/topic/topic.css" rel="stylesheet" type="text/css">
+    <script src="../../js/util/jquery-3.3.1.min.js"></script>
+    <script src="../../js/util/myStyle.js"></script>
+    <script src="../../js/util/myCookie.js"></script>
+    <script src="../../js/topic/topic.js"></script>
 </head>
 <body>
+<div id="header"></div>
+<div id="search_div">
+    <input id="search">
+    <button id="search_Btn">搜索</button>
+</div>
+<div id="main">
 
+    <div id="left">
+        <div id="title">
+            <ul>
+                <li id="cho1">最近发表</li>
+                <li id="cho2">最近回复</li>
+                <li id="cho3">最火</li>
+            </ul>
+            <div class="line"></div>
+            <button id="publish">我要发布</button>
+        </div>
+        <div id="topicContent">
+            <div id="lizi" >
+                <p id="uuid"></p>
+                <div class="topiclist">
+                    <img id="personImage" class="personImage" src="../../images/logo/androidlogo.png">
+                    <div class="topictitle2">
+                        <a class="petName">清风自来</a>
+                        <a>12小时前</a>
+                    </div>
+                </div>
+                <p>
+                    猪八戒是明朝小说家吴承恩所作《西游记》中登场的虚拟角色。又
+                    ...</p>
+                <div class="domore">
+                    <a id="first">浏览180次</a>
+                    <a>回复 3次</a>
+                    <a>赞 120</a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div id="right">
+        <ul>
+            <li>最近发表</li>
+            <li>最近回复</li>
+            <li>最火</li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>

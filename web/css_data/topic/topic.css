@@ -1,0 +1,156 @@
+body {
+    background-color: #f8eef6;
+}
+
+/*线*/
+div.line {
+    width: 90%;
+    border: #9ba0a8 solid 0.5px;
+    margin-left: 5%;
+}
+
+/*搜索模块*/
+#search_div {
+    background-color: white;
+    margin: 10% 0 0 13%;
+    padding: 20px 0 20px 0;
+    width: 50%;
+}
+
+#search {
+    color: #0f0f0f;
+    width: 350px;
+    font-size: 18px;
+    padding: 9px 0 9px 9px;
+    font-family: Calibri, "Segoe UI Emoji", serif;
+    border-radius: 6px;
+    border: #f9ee65 solid 1px;
+    margin-left: 80px;
+}
+
+#search_Btn {
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 7px 15px 7px 15px;
+    margin-left: 25px;
+    border-radius: 3px;
+    background-color: #fad83b;
+    font-family: Calibri, "Segoe UI Emoji", serif;
+}
+
+#search_Btn:hover {
+    background-color: #ebc729;
+
+}
+
+#main {
+    display: flex;
+}
+
+#left {
+    margin: 20px 20px 0 13%;
+    width: 50%;
+    background-color: white;
+}
+
+
+/*左边排序标题*/
+#title ul {
+    display: flex;
+    margin: 10px 10px;
+    padding: 10px;
+    font-family: Calibri, serif;
+}
+
+#title ul li {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+/*发布按钮*/
+#publish {
+    background-color: #f9c035;
+    border: none;
+    margin: 8px 0 0 70%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+}
+
+/*最近发表*/
+#cho1 {
+    color: #fad143;
+}
+
+/*订单区域*/
+#topicContent {
+    width: 100%;
+}
+
+/*一条订单*/
+
+div.topiclist {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+}
+
+/*记录订单id*/
+#uuid {
+}
+
+div.topictitle {
+    display: flex;
+}
+
+div.topictitle img {
+    width: 30px;
+    height: 30px;
+}
+
+div.topictitle2 {
+    padding: 5px;
+}
+
+div.topictitle2 a {
+    display: block;
+    font-family: Calibri, serif;
+    font-size: 13px;
+    color: #b9b7b5;
+    margin-top: 15px;
+}
+
+/*用户名和发布时间差*/
+div.topictitle2 a.petName {
+    color: #2f2f2f;
+}
+
+#lizi p {
+    font-family: Calibri, serif;
+    font-size: 16px;
+    padding-left: 20px;
+
+}
+
+/*浏览量等小功能*/
+div.domore {
+    margin-bottom: 15px;
+}
+
+div.domore a {
+    font-family: 楷体, serif;
+    font-size: 4px;
+    color: #b9b7b5;
+}
+
+#first {
+    margin-left: 70%;
+}
+
+#right {
+    width: 25%;
+    background-color: white;
+}
+

@@ -61,7 +61,6 @@ ul.chose li {
 #sure {
     font-size: 1.2em;
     border: none;
-
     background-color: #79c2e2;
     border-radius: 5px;
     font-family: 楷体, serif;
@@ -69,4 +68,22 @@ ul.chose li {
     padding: 6px 18px 6px 18px;
     margin-left: 5%;
 
+}
+
+/*通信模块*/
+#cho_2 {
+    display: none;
+}
+
+#cho_2 ul {
+    padding: 0 25% 0 25%;
+}
+
+/*电子模块*/
+#cho_3 {
+    display: none;
+}
+
+#cho_3 ul {
+    padding: 0 25% 0 25%;
 }
